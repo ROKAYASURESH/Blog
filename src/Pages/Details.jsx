@@ -25,8 +25,22 @@ export default function Details() {
         });
           },[]);
   return (
-    <><div>Details{id}</div>
-    {post.title}</>
+    <>
+    <div>Details{id}</div>
+ 
+  <table border="1">
+    <tr>
+      <th>id</th>
+      <th>title</th>
+      <th>body</th>
+    </tr>
+
+    <tr><td>{post.id}</td>
+      <td>{post.title}</td>
+      <td>{post.body}</td>
+    </tr>
+  </table>
+    </>
     
     
   )

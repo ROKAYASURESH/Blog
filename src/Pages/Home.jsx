@@ -7,7 +7,7 @@ export default function Home() {
  
     useEffect(() => {
         document.title="Home"
-        axios.get('https://jsonplaceholder.typicode.com/comments?postId=1')
+        axios.get('https://jsonplaceholder.typicode.com/posts')
         .then(function (response) {
           // handle success
           console.log(response.data);
@@ -34,7 +34,7 @@ export default function Home() {
             {post.map((item)=>(
             <tr>
                 <td>{item.id}</td>
-                <td>{item.name}</td>
+                <td>{item.title}</td>
                 <td><Link to={`details/${item.id}`}> View More</Link></td>
             </tr>
                 
