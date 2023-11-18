@@ -16,7 +16,7 @@ This is a React.js blog project that fetches JSON data to dynamically display bl
 - [Built With](#built-with)
 
 ## Demo
-You can view a live demo of the project [here]().
+You can view a live demo of the project [here](https://github.com/ROKAYASURESH/Blog/assets/127000485/4813c1be-7728-4590-a8bc-ce24f910d61d).
 ## Getting Started
 
 ### Prerequisites
