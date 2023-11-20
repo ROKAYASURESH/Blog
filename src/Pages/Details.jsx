@@ -29,7 +29,7 @@ export default function Details() {
     <div>Details{id}</div>
  
   <table border="1">
-    <tr>
+    <tr style={{backgroundColor:"blue"}}>
       <th>id</th>
       <th>title</th>
       <th>body</th>
